@@ -28,7 +28,7 @@ function dragover(event) {
 
 function dragenter(event) {
     event.target.classList.add('hovered')
-    console.log('drag enter')
+
 }
 
 function dragleave(event) {
