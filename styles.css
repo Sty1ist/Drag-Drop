@@ -32,11 +32,11 @@ body {
     width: 150px;
     height: 66px;
     border: 1px solid #eee;
-    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    box-shadow: 4px 4px 9px rgba(3, 69, 155, 0.815);
     border-radius: 20px;
-    background: #f7f6f7;
+    background: #70a5eb;
     padding: 0.8rem 1rem;
-    color: #828282;
+    color: #f5f1f1;
     text-align: center;
     cursor: grab;
 }
@@ -48,22 +48,24 @@ body {
 .placeholder {
     width: 150px;
     height: 66px;
+    border-radius: 20%;
 }
 
 .start {
-    background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+    background: linear-gradient(90deg, #a72a04 0%, #f0e54a 179.25%);
 }
 
 .progress {
-    background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+    background: linear-gradient(90deg, #af6510 0%, #e9db13 100%);
 }
 
 .done {
-    background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+    background: linear-gradient(90deg, #ddda06 0%, #5fee0c 100%);
 }
 
 .hold {
-    border: 3px solid rgb(155, 255, 240);
+    border: none;
+    box-shadow: none;
 }
 
 .hide {
@@ -71,5 +73,5 @@ body {
 }
 
 .hovered {
-    border-top: 2px solid violet;
+    border-top: 3px solid rgb(122, 200, 168);
 }
